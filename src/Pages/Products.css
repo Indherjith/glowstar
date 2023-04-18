@@ -1,0 +1,18 @@
+.griding{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media all and (max-width:976px){
+    .griding{
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width:496px){
+    .griding{
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+    }
+}
